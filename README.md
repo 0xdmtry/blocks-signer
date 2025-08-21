@@ -1,8 +1,11 @@
 # Blocks Signing Service
 
-## Overview
+
+![Diagram](assets/diagrams/signer.gif "Diagram")
+
 
 Blocks signing service leveraging a message-driven / microservice solution. 
+
 
 For example, for a database of 100,000 blocks and a collection of 100 private keys,  the service concurrently signs batches of blocks, and it stores the signatures in the database until all blocks are signed.
 
@@ -35,7 +38,9 @@ Designed a solution leveraging five microservices:
 
 ### Workflow
 
-![Diagram](assets/diagrams/signer.gif "Diagram")
+
+
+![Diagram](assets/diagrams/signer.animation-002.gif "Diagram")
 
 
 1. Customer/frontend sends a request to the Broker.
@@ -59,7 +64,7 @@ Designed a solution leveraging five microservices:
 
 
 
-![Diagram](assets/diagrams/signer.animation-002.gif "Diagram")
+
 
 
 
